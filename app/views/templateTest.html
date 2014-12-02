@@ -18,7 +18,7 @@
 <section class="songList_item_inner">
     <h3 class="songList_item_song_tit">{{ data.title }}</h2>
         <a ui-sref="profile({id: {{data.user.id}}})">
-            <h3 class="songList_item_song_user">by: {{ data.user.username }}
+            <h3 class="songList_item_song_user">{{ data.user.username }}
         </a><span class="songList_item_song_length">{{ formatSongDuration (data.duration) }}</span></h3>
 
     <!--<img src="{{ data.waveform_url }}" alt="{{ data.title }}" class="songList_item_song_waveForm">-->
