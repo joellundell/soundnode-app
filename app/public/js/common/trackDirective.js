@@ -1,11 +1,10 @@
 /**
  * Created by Johannes on 12/1/2014.
  */
-app.directive('track', function ($rootScope, $window, playerService) {
+app.directive('track', function () {
     return {
         restrict: 'AE',
         scope: { data: '=' },
-        controller: function($scope) {},
         templateUrl: "views/templateTest.html"
     }
 });
